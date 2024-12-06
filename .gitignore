@@ -1,0 +1,47 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Python virtual environment
+venv/
+env/
+.env
+.venv/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.eggs/
+.eggs/
+
+# PyInstaller
+# PyInstaller creates a lot of files in the build/ directory, which should be ignored.
+build/
+*.spec
+
+# Test coverage reports
+.coverage
+*.coverage
+.coverage.*
+nosetests.xml
+tox.ini
+*.log
+
+# Pytest
+.cache/
+
+# mypy (static type checking)
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyCharm / JetBrains IDEs
+.idea/
+
+# VS Code
+.v
